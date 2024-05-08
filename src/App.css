@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
+}
 
 .App {
   width: 100vw;
@@ -7,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #2f74c0;
-  font-family: "Neucha", cursive;
+  font-family: "Cyber", sans-serif;
 }
 
 .heading {
